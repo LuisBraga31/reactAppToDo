@@ -1,8 +1,25 @@
-# React + Vite
+# Projeto App To Do List com React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto foi o desenvolvimento de uma lista de tarefas, o famoso App To Do, utilizando React JS.
 
-Currently, two official plugins are available:
+## Imagem do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![AppToDo](https://github.com/LuisBraga31/reactAppToDo/assets/83723698/81189769-2ed7-4d03-b841-144918f46d9d)
+
+## Tecnologias Utilizadas:
+
+Essas foras as seguintes tecnologias usadas para criação do portfólio.
+
+* React JS
+* HTML
+* CSS
+* JavaScript
+
+## Links
+  - Repositório: https://github.com/LuisBraga31/reactAppToDo
+
+## Ideia do Projeto
+
+O projeto foi desenvolvido seguindo os passos do vídeo do Canal Matheus Battisti.
+
+Link para o vídeo: <a href="https://www.youtube.com/watch?v=YVEVrigByKY&ab_channel=MatheusBattisti-HoradeCodar"> Projeto de React JS </a>
