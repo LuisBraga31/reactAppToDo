@@ -3,9 +3,7 @@ body {
   padding: 1.875rem;
   background-color: #f4f4f4;
   color: #333;
-  background-image: url('./assets/bg.jpg');
-  background-position: center;
-  background-size: cover;
+  background-color: #969696;
 }
 
 .app {
