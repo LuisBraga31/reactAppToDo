@@ -42,6 +42,13 @@ function App() {
 
   }
 
+  const removeToDo = (id) => {
+    const newTodos = [...todos];
+    const filteredTodos = newTodos.filter(todo => todo.id !== id ? todo : null);
+
+    setTodos(filteredTodos);
+  }
+
   return (
     <div className="app"> 
     
@@ -49,7 +56,7 @@ function App() {
       <div className="todo-list">
         {todos.map((todo) => (
           
-          <Todo key={todo.id} todo={todo} />
+          <Todo key={todo.id} todo={todo} removeToDo={removeToDo} />
         ))}
 
       </div>
