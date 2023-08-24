@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1.875rem;
-  background-color: #f4f4f4;
-  color: #333;
-  background-color: #969696;
+  padding: 2rem;
+  background-color: #435aa3;
 }
 
 .app {
-    max-width: 600px;
-    margin: 0 auto 300px;
-    background-color: #efefef;
-    padding: 20px 30px;
-    border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto 300px;
+  background-color: #efefef;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
 
 h1 {
@@ -19,11 +25,11 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 p {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 input {
@@ -34,10 +40,10 @@ button {
   background-color: #333974;
   color: #fff;
   padding: 5px 10px;
-  border: none;
+  border: 1px solid #000;
   border-radius: 3px;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.7;
   transition: .3s;
   margin-right: 10px;
 }
@@ -63,17 +69,12 @@ button:hover {
   align-items: center;
 }
 
-
 .complete {
-    background-color: #5cb85c;
+  background-color: #5cb85c;
 }
 
 .remove {
   background-color: #d9534f;
-}
-
-.todo-form {
-  padding-bottom: 1.5rem;
 }
 
 input, select {
@@ -93,7 +94,7 @@ input, select {
 .filter-option {
   display: flex;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .filter-option div {
