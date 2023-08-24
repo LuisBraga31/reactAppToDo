@@ -4,7 +4,7 @@ Esse projeto foi o desenvolvimento de uma lista de tarefas, o famoso App To Do, 
 
 ## Imagem do Projeto
 
-![AppToDo](https://github.com/LuisBraga31/reactAppToDo/assets/83723698/81189769-2ed7-4d03-b841-144918f46d9d)
+![toDoList](https://github.com/LuisBraga31/reactAppToDo/assets/83723698/7e1886d9-2bd2-4896-b72d-46fdc1725fb4)
 
 ## Tecnologias Utilizadas:
 
