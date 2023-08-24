@@ -4,8 +4,9 @@ const Todo = ({ todo, removeToDo, completeTodo }) => {
   return (
     <div className="todo" style={{textDecoration: todo.isCompleted ? "line-through" : ""}}>
             <div className="content">
+            <p className="category"> {todo.category} </p>
               <p> {todo.text} </p>
-              <p className="category"> ({todo.category}) </p>
+
             </div>
             <div>
               <button className="complete" onClick={() => completeTodo(todo.id)}> Completar </button>
