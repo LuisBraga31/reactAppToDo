@@ -1,5 +1,5 @@
 
-const Filter = ({filter, setFilter, setSort}) => {
+const Filter = ({filter, setFilter, filterCategory, setFilterCategory, setSort}) => {
   return (
     <div className="filter">
         <h2> Filtrar: </h2>
@@ -12,6 +12,17 @@ const Filter = ({filter, setFilter, setSort}) => {
                     <option value="Incomplete"> Incompletas </option>
                 </select>
             </div>
+
+            <div>
+                <p> Categoria </p>
+                <select value={filterCategory} onChange={(event) => setFilterCategory(event.target.value)}>
+                    <option value="All"> Todos </option>
+                    <option value="Trabalho"> Trabalho </option>
+                    <option value="Pessoal"> Pessoal </option>
+                    <option value="Estudos"> Estudos </option>
+                </select>
+            </div>
+            
 
             <div>
                 <p> Ordem alfabética </p>
